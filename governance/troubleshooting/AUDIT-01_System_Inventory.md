@@ -1,0 +1,1 @@
+Audit Objective: Identify legacy MicroK8s (Snap) artifacts and binary pathing conflicts. Current Hypothesis: The exit status 127 is caused by the NVIDIA pre-start hook referencing a non-existent or Snap-jailed binary path. Scope: /etc/containerd/, /usr/bin/nvidia-*, and /etc/nvidia-container-runtime/.

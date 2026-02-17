@@ -1,0 +1,1 @@
+Objective: Eliminate configuration drift and recursive script loops originating from legacy MicroK8s/Snap artifacts. Action: Purged nvidia-container-toolkit and restored libc-bin package integrity. Current State: System is now in a "Vanilla" Kubernetes 1.31 state. Post-Condition: Ready for a single-source-of-truth installation of hardware drivers.
