@@ -5,7 +5,7 @@ This directory contains the verified output of the Sovereign AI RAG pipeline, ge
 ## 📂 Directory Structure
 * **essays/**: 10-page literary analysis in English, Spanish, and Mandarin.
 * **summaries/**: High-level executive summaries for cross-border stakeholders.
-* **scripts/**: The production-ready translation and back-translation logic.
+* **scripts/**: The production-ready full generation, translation, and back-translation pipeline.
 
 ## 🛡️ Technical Validation
 * **Models:** DeepSeek-R1 (70B), Tower-Plus (72B), Llama 3.3 (70B).
